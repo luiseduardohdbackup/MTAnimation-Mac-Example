@@ -28,6 +28,7 @@
 {
     [NSView mt_animateWithDuration:self.duration
                     timingFunction:self.timingFunction
+                           options:MTViewAnimationOptionBeginFromCurrentState
                         animations:^{
                             NSPoint locationInView = [self convertPoint:theEvent.locationInWindow fromView:nil];
                             NSRect frame = self.logoImageView.frame;
