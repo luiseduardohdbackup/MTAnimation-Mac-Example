@@ -1,0 +1,3 @@
+[submodule "libs/MTAnimation"]
+	path = libs/MTAnimation
+	url = https://github.com/mysterioustrousers/MTAnimation.git

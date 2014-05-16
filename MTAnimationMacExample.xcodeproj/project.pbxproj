@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4036D3E3BDFA46B1B8908E99 /* libPods-MTAnimationMacExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C14BA6552BD459F8AA09D92 /* libPods-MTAnimationMacExample.a */; };
+		C201751A192661A60017A253 /* MTExampleWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2017519192661A60017A253 /* MTExampleWindowController.m */; };
 		C2815CDF192659A300064443 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2815CDE192659A300064443 /* Cocoa.framework */; };
 		C2815CE9192659A300064443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2815CE7192659A300064443 /* InfoPlist.strings */; };
 		C2815CEB192659A300064443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2815CEA192659A300064443 /* main.m */; };
@@ -18,6 +20,7 @@
 		C2815CFF192659A300064443 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2815CDE192659A300064443 /* Cocoa.framework */; };
 		C2815D07192659A300064443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2815D05192659A300064443 /* InfoPlist.strings */; };
 		C2815D09192659A300064443 /* MTAnimationMacExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2815D08192659A300064443 /* MTAnimationMacExampleTests.m */; };
+		C2815D1419265B0000064443 /* MTExampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2815D1319265B0000064443 /* MTExampleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C14BA6552BD459F8AA09D92 /* libPods-MTAnimationMacExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MTAnimationMacExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9648D7037FCD43868F652CE3 /* Pods-MTAnimationMacExample.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MTAnimationMacExample.xcconfig"; path = "Pods/Pods-MTAnimationMacExample.xcconfig"; sourceTree = "<group>"; };
+		C2017518192661A60017A253 /* MTExampleWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTExampleWindowController.h; sourceTree = "<group>"; };
+		C2017519192661A60017A253 /* MTExampleWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTExampleWindowController.m; sourceTree = "<group>"; };
 		C2815CDB192659A300064443 /* MTAnimationMacExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTAnimationMacExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2815CDE192659A300064443 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		C2815CE1192659A300064443 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +57,8 @@
 		C2815D04192659A300064443 /* MTAnimationMacExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTAnimationMacExampleTests-Info.plist"; sourceTree = "<group>"; };
 		C2815D06192659A300064443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2815D08192659A300064443 /* MTAnimationMacExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAnimationMacExampleTests.m; sourceTree = "<group>"; };
+		C2815D1219265B0000064443 /* MTExampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTExampleView.h; sourceTree = "<group>"; };
+		C2815D1319265B0000064443 /* MTExampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTExampleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2815CDF192659A300064443 /* Cocoa.framework in Frameworks */,
+				4036D3E3BDFA46B1B8908E99 /* libPods-MTAnimationMacExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +90,7 @@
 				C2815D02192659A300064443 /* MTAnimationMacExampleTests */,
 				C2815CDD192659A300064443 /* Frameworks */,
 				C2815CDC192659A300064443 /* Products */,
+				9648D7037FCD43868F652CE3 /* Pods-MTAnimationMacExample.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +109,7 @@
 				C2815CDE192659A300064443 /* Cocoa.framework */,
 				C2815CFD192659A300064443 /* XCTest.framework */,
 				C2815CE0192659A300064443 /* Other Frameworks */,
+				8C14BA6552BD459F8AA09D92 /* libPods-MTAnimationMacExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -118,6 +130,10 @@
 				C2815CF0192659A300064443 /* MTAppDelegate.h */,
 				C2815CF1192659A300064443 /* MTAppDelegate.m */,
 				C2815CF3192659A300064443 /* MainMenu.xib */,
+				C2017518192661A60017A253 /* MTExampleWindowController.h */,
+				C2017519192661A60017A253 /* MTExampleWindowController.m */,
+				C2815D1219265B0000064443 /* MTExampleView.h */,
+				C2815D1319265B0000064443 /* MTExampleView.m */,
 				C2815CF6192659A300064443 /* Images.xcassets */,
 				C2815CE5192659A300064443 /* Supporting Files */,
 			);
@@ -161,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2815D0C192659A300064443 /* Build configuration list for PBXNativeTarget "MTAnimationMacExample" */;
 			buildPhases = (
+				EF01214694DE4B6FB695B9D0 /* Check Pods Manifest.lock */,
 				C2815CD7192659A300064443 /* Sources */,
 				C2815CD8192659A300064443 /* Frameworks */,
 				C2815CD9192659A300064443 /* Resources */,
+				35255D1268ED4B618A74C72A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +266,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35255D1268ED4B618A74C72A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MTAnimationMacExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF01214694DE4B6FB695B9D0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2815CD7192659A300064443 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -255,6 +306,8 @@
 			files = (
 				C2815CEB192659A300064443 /* main.m in Sources */,
 				C2815CF2192659A300064443 /* MTAppDelegate.m in Sources */,
+				C2815D1419265B0000064443 /* MTExampleView.m in Sources */,
+				C201751A192661A60017A253 /* MTExampleWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +437,7 @@
 		};
 		C2815D0D192659A300064443 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9648D7037FCD43868F652CE3 /* Pods-MTAnimationMacExample.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -397,6 +451,7 @@
 		};
 		C2815D0E192659A300064443 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9648D7037FCD43868F652CE3 /* Pods-MTAnimationMacExample.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -467,6 +522,7 @@
 				C2815D0E192659A300064443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2815D0F192659A300064443 /* Build configuration list for PBXNativeTarget "MTAnimationMacExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +531,7 @@
 				C2815D11192659A300064443 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

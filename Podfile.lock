@@ -1,0 +1,14 @@
+PODS:
+  - MTAnimation (0.3.0)
+
+DEPENDENCIES:
+  - MTAnimation (from `libs/MTAnimation`)
+
+EXTERNAL SOURCES:
+  MTAnimation:
+    :path: libs/MTAnimation
+
+SPEC CHECKSUMS:
+  MTAnimation: 5e03f20eb24e8243d26c498ca0a0fb720f43206f
+
+COCOAPODS: 0.32.1
