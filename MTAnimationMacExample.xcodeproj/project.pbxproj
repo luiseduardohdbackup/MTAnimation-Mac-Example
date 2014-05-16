@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2815CDF192659A300064443 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2815CDE192659A300064443 /* Cocoa.framework */; };
+		C2815CE9192659A300064443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2815CE7192659A300064443 /* InfoPlist.strings */; };
+		C2815CEB192659A300064443 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2815CEA192659A300064443 /* main.m */; };
+		C2815CEF192659A300064443 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C2815CED192659A300064443 /* Credits.rtf */; };
+		C2815CF2192659A300064443 /* MTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2815CF1192659A300064443 /* MTAppDelegate.m */; };
+		C2815CF5192659A300064443 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2815CF3192659A300064443 /* MainMenu.xib */; };
+		C2815CF7192659A300064443 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2815CF6192659A300064443 /* Images.xcassets */; };
+		C2815CFE192659A300064443 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2815CFD192659A300064443 /* XCTest.framework */; };
+		C2815CFF192659A300064443 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2815CDE192659A300064443 /* Cocoa.framework */; };
+		C2815D07192659A300064443 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2815D05192659A300064443 /* InfoPlist.strings */; };
+		C2815D09192659A300064443 /* MTAnimationMacExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2815D08192659A300064443 /* MTAnimationMacExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2815D00192659A300064443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2815CD3192659A300064443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2815CDA192659A300064443;
+			remoteInfo = MTAnimationMacExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2815CDB192659A300064443 /* MTAnimationMacExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTAnimationMacExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2815CDE192659A300064443 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C2815CE1192659A300064443 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C2815CE2192659A300064443 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C2815CE3192659A300064443 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2815CE6192659A300064443 /* MTAnimationMacExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTAnimationMacExample-Info.plist"; sourceTree = "<group>"; };
+		C2815CE8192659A300064443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2815CEA192659A300064443 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2815CEC192659A300064443 /* MTAnimationMacExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTAnimationMacExample-Prefix.pch"; sourceTree = "<group>"; };
+		C2815CEE192659A300064443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C2815CF0192659A300064443 /* MTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTAppDelegate.h; sourceTree = "<group>"; };
+		C2815CF1192659A300064443 /* MTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAppDelegate.m; sourceTree = "<group>"; };
+		C2815CF4192659A300064443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C2815CF6192659A300064443 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2815CFC192659A300064443 /* MTAnimationMacExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTAnimationMacExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2815CFD192659A300064443 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2815D04192659A300064443 /* MTAnimationMacExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTAnimationMacExampleTests-Info.plist"; sourceTree = "<group>"; };
+		C2815D06192659A300064443 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2815D08192659A300064443 /* MTAnimationMacExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTAnimationMacExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2815CD8192659A300064443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2815CDF192659A300064443 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2815CF9192659A300064443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2815CFF192659A300064443 /* Cocoa.framework in Frameworks */,
+				C2815CFE192659A300064443 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2815CD2192659A300064443 = {
+			isa = PBXGroup;
+			children = (
+				C2815CE4192659A300064443 /* MTAnimationMacExample */,
+				C2815D02192659A300064443 /* MTAnimationMacExampleTests */,
+				C2815CDD192659A300064443 /* Frameworks */,
+				C2815CDC192659A300064443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2815CDC192659A300064443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2815CDB192659A300064443 /* MTAnimationMacExample.app */,
+				C2815CFC192659A300064443 /* MTAnimationMacExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2815CDD192659A300064443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2815CDE192659A300064443 /* Cocoa.framework */,
+				C2815CFD192659A300064443 /* XCTest.framework */,
+				C2815CE0192659A300064443 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2815CE0192659A300064443 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2815CE1192659A300064443 /* AppKit.framework */,
+				C2815CE2192659A300064443 /* CoreData.framework */,
+				C2815CE3192659A300064443 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C2815CE4192659A300064443 /* MTAnimationMacExample */ = {
+			isa = PBXGroup;
+			children = (
+				C2815CF0192659A300064443 /* MTAppDelegate.h */,
+				C2815CF1192659A300064443 /* MTAppDelegate.m */,
+				C2815CF3192659A300064443 /* MainMenu.xib */,
+				C2815CF6192659A300064443 /* Images.xcassets */,
+				C2815CE5192659A300064443 /* Supporting Files */,
+			);
+			path = MTAnimationMacExample;
+			sourceTree = "<group>";
+		};
+		C2815CE5192659A300064443 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2815CE6192659A300064443 /* MTAnimationMacExample-Info.plist */,
+				C2815CE7192659A300064443 /* InfoPlist.strings */,
+				C2815CEA192659A300064443 /* main.m */,
+				C2815CEC192659A300064443 /* MTAnimationMacExample-Prefix.pch */,
+				C2815CED192659A300064443 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2815D02192659A300064443 /* MTAnimationMacExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2815D08192659A300064443 /* MTAnimationMacExampleTests.m */,
+				C2815D03192659A300064443 /* Supporting Files */,
+			);
+			path = MTAnimationMacExampleTests;
+			sourceTree = "<group>";
+		};
+		C2815D03192659A300064443 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2815D04192659A300064443 /* MTAnimationMacExampleTests-Info.plist */,
+				C2815D05192659A300064443 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2815CDA192659A300064443 /* MTAnimationMacExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2815D0C192659A300064443 /* Build configuration list for PBXNativeTarget "MTAnimationMacExample" */;
+			buildPhases = (
+				C2815CD7192659A300064443 /* Sources */,
+				C2815CD8192659A300064443 /* Frameworks */,
+				C2815CD9192659A300064443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTAnimationMacExample;
+			productName = MTAnimationMacExample;
+			productReference = C2815CDB192659A300064443 /* MTAnimationMacExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2815CFB192659A300064443 /* MTAnimationMacExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2815D0F192659A300064443 /* Build configuration list for PBXNativeTarget "MTAnimationMacExampleTests" */;
+			buildPhases = (
+				C2815CF8192659A300064443 /* Sources */,
+				C2815CF9192659A300064443 /* Frameworks */,
+				C2815CFA192659A300064443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2815D01192659A300064443 /* PBXTargetDependency */,
+			);
+			name = MTAnimationMacExampleTests;
+			productName = MTAnimationMacExampleTests;
+			productReference = C2815CFC192659A300064443 /* MTAnimationMacExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2815CD3192659A300064443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mysterious Trousers";
+				TargetAttributes = {
+					C2815CFB192659A300064443 = {
+						TestTargetID = C2815CDA192659A300064443;
+					};
+				};
+			};
+			buildConfigurationList = C2815CD6192659A300064443 /* Build configuration list for PBXProject "MTAnimationMacExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2815CD2192659A300064443;
+			productRefGroup = C2815CDC192659A300064443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2815CDA192659A300064443 /* MTAnimationMacExample */,
+				C2815CFB192659A300064443 /* MTAnimationMacExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2815CD9192659A300064443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2815CE9192659A300064443 /* InfoPlist.strings in Resources */,
+				C2815CF7192659A300064443 /* Images.xcassets in Resources */,
+				C2815CEF192659A300064443 /* Credits.rtf in Resources */,
+				C2815CF5192659A300064443 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2815CFA192659A300064443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2815D07192659A300064443 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2815CD7192659A300064443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2815CEB192659A300064443 /* main.m in Sources */,
+				C2815CF2192659A300064443 /* MTAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2815CF8192659A300064443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2815D09192659A300064443 /* MTAnimationMacExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2815D01192659A300064443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2815CDA192659A300064443 /* MTAnimationMacExample */;
+			targetProxy = C2815D00192659A300064443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2815CE7192659A300064443 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2815CE8192659A300064443 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2815CED192659A300064443 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2815CEE192659A300064443 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C2815CF3192659A300064443 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2815CF4192659A300064443 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		C2815D05192659A300064443 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2815D06192659A300064443 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2815D0A192659A300064443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2815D0B192659A300064443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2815D0D192659A300064443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTAnimationMacExample/MTAnimationMacExample-Prefix.pch";
+				INFOPLIST_FILE = "MTAnimationMacExample/MTAnimationMacExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2815D0E192659A300064443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTAnimationMacExample/MTAnimationMacExample-Prefix.pch";
+				INFOPLIST_FILE = "MTAnimationMacExample/MTAnimationMacExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2815D10192659A300064443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTAnimationMacExample.app/Contents/MacOS/MTAnimationMacExample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTAnimationMacExample/MTAnimationMacExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MTAnimationMacExampleTests/MTAnimationMacExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2815D11192659A300064443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MTAnimationMacExample.app/Contents/MacOS/MTAnimationMacExample";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTAnimationMacExample/MTAnimationMacExample-Prefix.pch";
+				INFOPLIST_FILE = "MTAnimationMacExampleTests/MTAnimationMacExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2815CD6192659A300064443 /* Build configuration list for PBXProject "MTAnimationMacExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2815D0A192659A300064443 /* Debug */,
+				C2815D0B192659A300064443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2815D0C192659A300064443 /* Build configuration list for PBXNativeTarget "MTAnimationMacExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2815D0D192659A300064443 /* Debug */,
+				C2815D0E192659A300064443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2815D0F192659A300064443 /* Build configuration list for PBXNativeTarget "MTAnimationMacExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2815D10192659A300064443 /* Debug */,
+				C2815D11192659A300064443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2815CD3192659A300064443 /* Project object */;
+}
