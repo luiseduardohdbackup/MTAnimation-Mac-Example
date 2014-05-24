@@ -1,1 +1,1 @@
-PODS_MTANIMATIONMACEXAMPLE_MTANIMATION_OTHER_LDFLAGS = -framework ApplicationServices -framework Cocoa -framework CoreGraphics -framework Foundation -framework QuartzCore
+PODS_MTANIMATIONMACEXAMPLE_MTANIMATION_OTHER_LDFLAGS = -framework ApplicationServices -framework Cocoa -framework Foundation -framework QuartzCore

@@ -8,7 +8,7 @@
 
 // MTAnimation
 #define COCOAPODS_POD_AVAILABLE_MTAnimation
-#define COCOAPODS_VERSION_MAJOR_MTAnimation 0
-#define COCOAPODS_VERSION_MINOR_MTAnimation 3
+#define COCOAPODS_VERSION_MAJOR_MTAnimation 1
+#define COCOAPODS_VERSION_MINOR_MTAnimation 2
 #define COCOAPODS_VERSION_PATCH_MTAnimation 0
 
